@@ -1,8 +1,8 @@
 export const theme = {
   colors: {
-    whiteBg: 'white',
-    darkBg: 'black',
-    colorRed: 'red',
+    primaryColor: '#0A1128',
+    secondaryColor: '#dc143c',
+    white: '#FFFFFF',
   },
 };
 export default theme;

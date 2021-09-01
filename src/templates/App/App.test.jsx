@@ -11,6 +11,6 @@ it('should render the App with theme provider', () => {
   expect(headingContainer).toHaveStyle(`
   background: ${theme.colors.darkBg}
   `);
-  expect(headingContainer).toHaveStyleRule('background', 'black');
+  expect(headingContainer).toHaveStyleRule('background', '#0A1128');
   expect(headingContainer).toMatchSnapshot();
 });
