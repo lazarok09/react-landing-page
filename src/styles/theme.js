@@ -6,8 +6,8 @@ export const theme = {
   },
   font: {
     family: {
-      default: '"Open Sans", sans-serif',
-      secondary: '"Montserrat", sans-serif',
+      default: "'Open Sans', sans-serif",
+      secondary: "'Montserrat', sans-serif",
     },
     sizes: {
       xsmall: '0.8rem',
@@ -19,6 +19,9 @@ export const theme = {
       huge: '5.6rem',
       xhuge: '6.4rem',
     },
+  },
+  media: {
+    lteMedium: '(max-width: 768px)',
   },
 };
 export default theme;
