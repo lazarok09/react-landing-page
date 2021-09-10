@@ -1,8 +1,14 @@
 import styled, { css } from 'styled-components';
 import { Container as SectionContainer } from '../SectionContainer/styles';
 import { Title as Heading } from '../Heading/styles';
+
+const menuVisible = (theme) => css`
+  visibility: visible;
+  opacity: 1;
+`;
+
 export const Container = styled.div`
-  ${({ theme }) => css`
+  ${({ theme, visible }) => css`
     position: fixed;
     z-index: 5;
     top: 0;
@@ -11,6 +17,8 @@ export const Container = styled.div`
     width: 100%;
     background: ${theme.colors.white};
     border-bottom: ${theme.colors.mediumGray};
+
+    transition: all 300ms ease-in-out;
 
     // usando sobrescrição de estilos
     > ${SectionContainer} {
@@ -23,6 +31,9 @@ export const Container = styled.div`
     }
     @media ${theme.media.lteMedium} {
       height: 100vh;
+      visibility: hidden;
+      opacity: 0;
+      ${visible && menuVisible(theme)}
 
       > ${SectionContainer} {
         display: grid;
@@ -54,5 +65,28 @@ export const MenuContainer = styled.div`
   `}
 `;
 export const Button = styled.button`
-  ${({ theme }) => css``}
+  ${({ theme, visible }) => css`
+    z-index: 6;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background: ${theme.colors.primaryColor};
+    color: ${theme.colors.white};
+    border: none;
+    display: none;
+    pointer-events: ${visible ? 'none' : 'all'};
+    @media ${theme.media.lteMedium} {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    // edit the inside icon
+    > svg {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  `}
 `;
