@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+
 const titleSize = {
   small: (theme) => css`
     font-size: ${theme.font.sizes.medium};
@@ -17,7 +18,6 @@ const titleSize = {
 const mediaFont = (theme) => css`
   @media ${theme.media.lteMedium} {
     font-size: ${theme.font.sizes.xlarge};
-    background: red;
   }
 `;
 
