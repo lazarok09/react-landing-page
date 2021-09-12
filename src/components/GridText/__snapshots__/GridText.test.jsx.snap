@@ -81,11 +81,11 @@ exports[`<GridText /> should render with background 1`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3 c4"
         >
           My grid
-        </h1>
+        </h2>
         <p
           class="c5 c6"
         >
@@ -97,11 +97,11 @@ exports[`<GridText /> should render with background 1`] = `
           <div
             class="c8"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Teste 1
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -111,11 +111,11 @@ exports[`<GridText /> should render with background 1`] = `
           <div
             class="c8"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Teste 2
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -125,11 +125,11 @@ exports[`<GridText /> should render with background 1`] = `
           <div
             class="c8"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Teste 3
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -224,11 +224,11 @@ exports[`<GridText /> should render without background 1`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3 c4"
         >
           My grid
-        </h1>
+        </h2>
         <p
           class="c5 c6"
         >
@@ -240,11 +240,11 @@ exports[`<GridText /> should render without background 1`] = `
           <div
             class="c8"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Teste 1
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -254,11 +254,11 @@ exports[`<GridText /> should render without background 1`] = `
           <div
             class="c8"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Teste 2
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
@@ -268,11 +268,11 @@ exports[`<GridText /> should render without background 1`] = `
           <div
             class="c8"
           >
-            <h1
+            <h3
               class="c3 c9"
             >
               Teste 3
-            </h1>
+            </h3>
             <p
               class="c5 c6"
             >
