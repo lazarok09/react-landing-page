@@ -1,13 +1,8 @@
-import { Heading } from '../../components/Heading';
-import * as Styled from './styles';
+import { Base } from '../Base';
+import { mockBase } from '../Base/stories';
 
 function App() {
-  return (
-    // se mudar a prop muda a cor lá
-    <Styled.Wrapper>
-      <Heading>Oi</Heading>
-    </Styled.Wrapper>
-  );
+  return <Base {...mockBase} />;
 }
 
 export default App;
