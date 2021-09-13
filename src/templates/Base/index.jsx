@@ -10,7 +10,7 @@ export const Base = ({ links, logoData, footerHTML, children }) => {
       <Menu links={links} logoData={logoData} />
       <Styled.Container>
         {children}
-        <Footer html={footerHTML} />
+        <Footer footerHtml={footerHTML} />
       </Styled.Container>
       <GoToTop />
     </>

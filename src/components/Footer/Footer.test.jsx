@@ -4,12 +4,8 @@ import { Footer } from '.';
 
 describe('<Footer />', () => {
   it('should render footer with hello world', () => {
-    const { container } = renderTheme(
-      <Footer html={`<h1>Hello World</h1>`}>Children</Footer>,
-    );
-    expect(
-      screen.getByRole('heading', { name: /hello world/i }),
-    ).toBeInTheDocument();
+    const { container } = renderTheme(<Footer footerHtml={'<h1>Olá</h1>'} />);
+    expect(screen.getByRole('heading', { name: 'Olá' })).toBeInTheDocument();
     expect(container).toMatchInlineSnapshot(`
       .c4 {
         font-size: 2.4rem;
@@ -55,7 +51,7 @@ describe('<Footer />', () => {
               class="c3 c4"
             >
               <h1>
-                Hello World
+                Olá
               </h1>
             </div>
           </div>
