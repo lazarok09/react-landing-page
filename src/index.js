@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './templates/App/App';
 
+import Home from './templates/App/Home';
 import { GlobalStyles } from './styles/global-styles';
 import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme';
@@ -9,7 +9,7 @@ import theme from './styles/theme';
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+      <Home />
       <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>,

@@ -10,7 +10,6 @@ exports[`<Heading /> should match snapshot 1`] = `
 @media (max-width:768px) {
   .c0 {
     font-size: 4.0rem;
-    background: red;
   }
 }
 

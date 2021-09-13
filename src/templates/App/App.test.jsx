@@ -1,10 +1,13 @@
-import { screen } from '@testing-library/react';
-import App from './App';
+import Home from './Home';
 import { renderTheme } from '../../styles/render-theme';
-import theme from '../../styles/theme';
-
+import * as Styled from './styles';
 describe('<Home />', () => {
-  it('should render the App with theme provider', () => {
-    renderTheme(<App />);
+  it('should render Home', () => {
+    const { container } = renderTheme(
+      <Styled.Wrapper>
+        <Home />
+      </Styled.Wrapper>,
+    );
+    expect(container).toMatchSnapshot();
   });
 });
