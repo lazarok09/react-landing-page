@@ -1,0 +1,527 @@
+[
+  {
+    "_id": "612e3aee172d35311c85277e",
+    "published_at": "2021-08-31T14:22:10.680Z",
+    "footer_text": "<p><a href=\"https://www.linkedin.com/in/lazarok09/\">Feito com ❤ Lázaro Souza</a></p>",
+    "slug": "landing-page",
+    "title": "Landing Page",
+    "sections": [
+      {
+        "__component": "section.section-two-columns",
+        "description": "Na computação, o desenvolvimento de software é o ato de elaborar e  implementar um sistema computacional, isto é, transformar a            necessidade de um utilizador ou de um mercado em um produto de software[1]. Em outras palavras, é através da programação dar\nvida a uma ideia.",
+        "_id": "612e3aee172d35311c85277f",
+        "title": "Desenvolver Software é a nova onda do imperador",
+        "metadata": {
+          "background": true,
+          "_id": "612e3aee172d35311c852785",
+          "section_id": "home",
+          "name": "Home",
+          "__v": 0,
+          "id": "612e3aee172d35311c852785"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "612e3510172d35311c852776",
+          "name": "javascript.svg",
+          "alternativeText": "Desenho de pessoas segurando logo do CSS, JavaScript e HTML",
+          "caption": "Desenho de pessoas segurando logo do CSS, JavaScript e HTML",
+          "hash": "javascript_efaaf593b4",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 30.31,
+          "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630418192/javascript_efaaf593b4.svg",
+          "provider_metadata": {
+            "public_id": "javascript_efaaf593b4",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1030,
+          "height": 730,
+          "related": ["612e3aee172d35311c85277f"],
+          "createdAt": "2021-08-31T13:56:32.992Z",
+          "updatedAt": "2021-08-31T14:21:36.186Z",
+          "__v": 0,
+          "id": "612e3510172d35311c852776"
+        },
+        "id": "612e3aee172d35311c85277f"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "612e3aee172d35311c852780",
+        "title": "TOP 3 áreas",
+        "content": "<p>Front End é o desenvolvedor de interface, aquilo que o usuário final enxerga no dia a dia. Ele pode desenvolver interfaces para internet (web) ou para dispositivos móveis (mobile).</p><p>Back End, como o próprio nome sugere, vem da ideia do que tem por trás de uma aplicação.</p><p>Desenvolvedor Mobile é a pessoa com atividades ligadas a estruturação e criação de interfaces, aplicativos e dashboards para dispositivos móveis.</p>",
+        "metadata": {
+          "background": false,
+          "_id": "612e3aee172d35311c852786",
+          "name": "Intro",
+          "section_id": "intro",
+          "__v": 0,
+          "id": "612e3aee172d35311c852786"
+        },
+        "__v": 1,
+        "id": "612e3aee172d35311c852780"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "612e3aee172d35311c852781",
+        "description": "Abaixo uma descrição de cada função do profissional de TI",
+        "title": "as 3 vertentes",
+        "text_grid": [
+          {
+            "_id": "612e3aee172d35311c852787",
+            "title": "Front-end",
+            "description": "Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio de código uma interface gráfica, normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).",
+            "__v": 0,
+            "id": "612e3aee172d35311c852787"
+          },
+          {
+            "_id": "612e3aee172d35311c852788",
+            "title": "Back-end",
+            "description": "O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final não tenha acesso e possa manipular algo.",
+            "__v": 0,
+            "id": "612e3aee172d35311c852788"
+          },
+          {
+            "_id": "612e3aee172d35311c852789",
+            "title": "Mobile",
+            "description": "Pertencente à área da TI, o desenvolvimento mobile é o segmento responsável pelo planejamento, elaboração, testes e implementação de softwares para os dispositivos móveis. O que pode incluir o contato ou não com back-end e front-end ao mesmo tempo.",
+            "__v": 0,
+            "id": "612e3aee172d35311c852789"
+          }
+        ],
+        "image_grid": [],
+        "metadata": {
+          "background": true,
+          "_id": "612e3aef172d35311c85279f",
+          "name": "top3",
+          "section_id": "toptres",
+          "__v": 0,
+          "id": "612e3aef172d35311c85279f"
+        },
+        "__v": 2,
+        "id": "612e3aee172d35311c852781"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "612e3aee172d35311c852782",
+        "description": "Você pode conferir abaixo um serviço na internet que provê imagens aleatórias. E isso é incrível, pois é um software livre e grátis para quem quiser utilizar! unsplash website\n\n",
+        "title": "Galeria",
+        "text_grid": [],
+        "image_grid": [
+          {
+            "_id": "612e3aef172d35311c85278c",
+            "__v": 0,
+            "image": {
+              "_id": "612e38b5172d35311c852777",
+              "name": "https://source.unsplash.com/random/360x360?r=5",
+              "alternativeText": "uma cadeira no meio de um fundo branco e piso de madeira",
+              "caption": "uma cadeira no meio de um fundo branco e piso de madeira",
+              "hash": "360x360_r_5_835f4af781",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 13.99,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_5_835f4af781.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_5_835f4af781",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=5",
+                  "hash": "thumbnail_360x360_r_5_835f4af781",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 3.32,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419126/thumbnail_360x360_r_5_835f4af781.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_5_835f4af781",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["612e3aef172d35311c85278c"],
+              "createdAt": "2021-08-31T14:12:05.811Z",
+              "updatedAt": "2021-08-31T14:21:35.683Z",
+              "__v": 0,
+              "id": "612e38b5172d35311c852777"
+            },
+            "id": "612e3aef172d35311c85278c"
+          },
+          {
+            "_id": "612e3aef172d35311c85278d",
+            "__v": 0,
+            "image": {
+              "_id": "612e38b6172d35311c85277c",
+              "name": "https://source.unsplash.com/random/360x360?r=3",
+              "alternativeText": "uma moldura com um vidro, no vidro há respingos de água",
+              "caption": "uma moldura com um vidro, no vidro há respingos de água",
+              "hash": "360x360_r_3_3c8326a12d",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 34.52,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419126/360x360_r_3_3c8326a12d.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_3_3c8326a12d",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=3",
+                  "hash": "thumbnail_360x360_r_3_3c8326a12d",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 7.26,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419127/thumbnail_360x360_r_3_3c8326a12d.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_3_3c8326a12d",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["612e3aef172d35311c85278d"],
+              "createdAt": "2021-08-31T14:12:06.948Z",
+              "updatedAt": "2021-08-31T14:21:35.547Z",
+              "__v": 0,
+              "id": "612e38b6172d35311c85277c"
+            },
+            "id": "612e3aef172d35311c85278d"
+          },
+          {
+            "_id": "612e3aef172d35311c85278e",
+            "__v": 0,
+            "image": {
+              "_id": "612e38b6172d35311c85277b",
+              "name": "https://source.unsplash.com/random/360x360?r=2",
+              "alternativeText": "imagem de uma montanha em forma de colina, onde uma cachoeira desce no meio",
+              "caption": "imagem de uma montanha em forma de colina, onde uma cachoeira desce no meio",
+              "hash": "360x360_r_2_2eebe691c5",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 18.89,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_2_2eebe691c5.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_2_2eebe691c5",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=2",
+                  "hash": "thumbnail_360x360_r_2_2eebe691c5",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.66,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419126/thumbnail_360x360_r_2_2eebe691c5.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_2_2eebe691c5",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["612e3aef172d35311c85278e"],
+              "createdAt": "2021-08-31T14:12:06.182Z",
+              "updatedAt": "2021-08-31T14:21:35.613Z",
+              "__v": 0,
+              "id": "612e38b6172d35311c85277b"
+            },
+            "id": "612e3aef172d35311c85278e"
+          },
+          {
+            "_id": "612e3aef172d35311c85278f",
+            "__v": 0,
+            "image": {
+              "_id": "612e38b5172d35311c852779",
+              "name": "https://source.unsplash.com/random/360x360?r=6",
+              "alternativeText": "uma foto de uma ave que se parece com um abutre.",
+              "caption": "uma foto de uma ave que se parece com um abutre.",
+              "hash": "360x360_r_6_d79cc54b1e",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 18.02,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_6_d79cc54b1e.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_6_d79cc54b1e",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=6",
+                  "hash": "thumbnail_360x360_r_6_d79cc54b1e",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 5.11,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419126/thumbnail_360x360_r_6_d79cc54b1e.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_6_d79cc54b1e",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["612e3aef172d35311c85278f"],
+              "createdAt": "2021-08-31T14:12:05.951Z",
+              "updatedAt": "2021-08-31T14:21:35.552Z",
+              "__v": 0,
+              "id": "612e38b5172d35311c852779"
+            },
+            "id": "612e3aef172d35311c85278f"
+          },
+          {
+            "_id": "612e3aef172d35311c852790",
+            "__v": 0,
+            "image": {
+              "_id": "612e38b6172d35311c85277a",
+              "name": "https://source.unsplash.com/random/360x360?r=4",
+              "alternativeText": "uma câmera fotográfica em fundo preto",
+              "caption": "uma câmera fotográfica em fundo preto",
+              "hash": "360x360_r_4_7c4591b222",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 11.91,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_4_7c4591b222.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_4_7c4591b222",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=4",
+                  "hash": "thumbnail_360x360_r_4_7c4591b222",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 3.55,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419126/thumbnail_360x360_r_4_7c4591b222.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_4_7c4591b222",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["612e3aef172d35311c852790"],
+              "createdAt": "2021-08-31T14:12:06.108Z",
+              "updatedAt": "2021-08-31T14:21:35.635Z",
+              "__v": 0,
+              "id": "612e38b6172d35311c85277a"
+            },
+            "id": "612e3aef172d35311c852790"
+          },
+          {
+            "_id": "612e3aef172d35311c852791",
+            "__v": 0,
+            "image": {
+              "_id": "612e38b5172d35311c852778",
+              "name": "https://source.unsplash.com/random/360x360?r=1",
+              "alternativeText": "duas pessoas segurando a letra R e Y ao fundo de um céu estrelado",
+              "caption": "duas pessoas segurando a letra R e Y ao fundo de um céu estrelado",
+              "hash": "360x360_r_1_5ea2e7c649",
+              "ext": "",
+              "mime": "image/jpeg",
+              "size": 24.5,
+              "width": 360,
+              "height": 360,
+              "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_1_5ea2e7c649.jpg",
+              "provider_metadata": {
+                "public_id": "360x360_r_1_5ea2e7c649",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                  "hash": "thumbnail_360x360_r_1_5ea2e7c649",
+                  "ext": "",
+                  "mime": "image/jpeg",
+                  "width": 156,
+                  "height": 156,
+                  "size": 4.13,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419126/thumbnail_360x360_r_1_5ea2e7c649.jpg",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_360x360_r_1_5ea2e7c649",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": ["612e3aef172d35311c852791"],
+              "createdAt": "2021-08-31T14:12:05.903Z",
+              "updatedAt": "2021-08-31T14:21:35.645Z",
+              "__v": 0,
+              "id": "612e38b5172d35311c852778"
+            },
+            "id": "612e3aef172d35311c852791"
+          }
+        ],
+        "metadata": {
+          "background": false,
+          "_id": "612e3af0172d35311c8527a9",
+          "name": "Galeria",
+          "section_id": "galeria",
+          "__v": 0,
+          "id": "612e3af0172d35311c8527a9"
+        },
+        "__v": 2,
+        "id": "612e3aee172d35311c852782"
+      },
+      {
+        "__component": "section.section-content",
+        "_id": "612e3aee172d35311c852783",
+        "title": "salário",
+        "content": "<p>Abaixo na nossa tabela podemos verificar o quanto um desenvolvedor recebe em média na sua carreira para os cargos de <strong>júnior</strong>, <strong>pleno</strong> e <strong>sênior</strong> respectivamente.</p><p><br>&nbsp;</p><figure class=\"table\"><table><thead><tr><th>Nível</th><th>Junior</th><th>Pleno</th><th>Sênior</th></tr></thead><tbody><tr><th>Front-end</th><td>2.130 R$</td><td>4.430 R$</td><td>10.000 R$</td></tr><tr><th>Back-end</th><td>2.955 R$</td><td>5.594 R$</td><td>11.601 R$</td></tr><tr><th>Mobile</th><td>3.439 R$</td><td>5.360 R$</td><td>12.120 R$</td></tr><tr><th>fonte: <a href=\"https://pesquisa.codigofonte.com.br/\"><i>Código Fonte TV</i></a></th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure>",
+        "metadata": {
+          "background": false,
+          "_id": "612e3aef172d35311c85278a",
+          "section_id": "salary",
+          "name": "Salário",
+          "__v": 0,
+          "id": "612e3aef172d35311c85278a"
+        },
+        "__v": 1,
+        "id": "612e3aee172d35311c852783"
+      },
+      {
+        "__component": "section.section-two-columns",
+        "description": "Networking é a ação de trabalhar sua rede de contatos, trocando\ninformações relevantes com base na colaboração e ajuda mútua. O que inclui atividades voltadas à carreira e negócios, através da\nmanutenção de relacionamentos interpessoais produtivos. Através do Networking podemos conseguir vagas de emprego, dicas de cursos e especializações nas mais diversas áreas.\n          ",
+        "_id": "612e3aee172d35311c852784",
+        "title": "networking é a chave da riqueza",
+        "metadata": {
+          "background": true,
+          "_id": "612e3aef172d35311c85278b",
+          "name": "Contato",
+          "section_id": "contact",
+          "__v": 0,
+          "id": "612e3aef172d35311c85278b"
+        },
+        "__v": 1,
+        "image": {
+          "_id": "612e3ab1172d35311c85277d",
+          "name": "networking.svg",
+          "alternativeText": "imagem com duas pessoas e ícones de uma seta, uma mensagem e um telefone",
+          "caption": "imagem com duas pessoas e ícones de uma seta, uma mensagem e um telefone",
+          "hash": "networking_a8ca26b2ed",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 43.19,
+          "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630419632/networking_a8ca26b2ed.svg",
+          "provider_metadata": {
+            "public_id": "networking_a8ca26b2ed",
+            "resource_type": "image"
+          },
+          "provider": "cloudinary",
+          "width": 1096,
+          "height": 575,
+          "related": ["612e3aee172d35311c852784"],
+          "createdAt": "2021-08-31T14:20:33.336Z",
+          "updatedAt": "2021-08-31T14:21:36.087Z",
+          "__v": 0,
+          "id": "612e3ab1172d35311c85277d"
+        },
+        "id": "612e3aee172d35311c852784"
+      }
+    ],
+    "menu": {
+      "open_in_new_tab": false,
+      "_id": "612e3af1172d35311c8527b1",
+      "logo_text": "Landing Page",
+      "logo_link": "#home",
+      "menu": [
+        {
+          "open_in_new_tab": false,
+          "_id": "612e3af2172d35311c8527b2",
+          "link_text": "intro",
+          "url": "#intro",
+          "__v": 0,
+          "id": "612e3af2172d35311c8527b2"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "612e3af2172d35311c8527b3",
+          "link_text": "Top 3",
+          "url": "#top3",
+          "__v": 0,
+          "id": "612e3af2172d35311c8527b3"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "612e3af2172d35311c8527b4",
+          "link_text": "Galeria",
+          "url": "#galeria",
+          "__v": 0,
+          "id": "612e3af2172d35311c8527b4"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "612e3af2172d35311c8527b5",
+          "link_text": "Salário",
+          "url": "#salary",
+          "__v": 0,
+          "id": "612e3af2172d35311c8527b5"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "612e3af2172d35311c8527b6",
+          "link_text": "Contato",
+          "url": "#contact",
+          "__v": 0,
+          "id": "612e3af2172d35311c8527b6"
+        }
+      ],
+      "__v": 1,
+      "logo": {
+        "_id": "612e321568352e34c8a4bd51",
+        "name": "logo.svg",
+        "alternativeText": "landing page logo",
+        "caption": "landing page logo",
+        "hash": "logo_b254cc8ed0",
+        "ext": ".svg",
+        "mime": "image/svg+xml",
+        "size": 2.51,
+        "url": "https://res.cloudinary.com/lazarok09/image/upload/v1630417428/logo_b254cc8ed0.svg",
+        "provider_metadata": {
+          "public_id": "logo_b254cc8ed0",
+          "resource_type": "image"
+        },
+        "provider": "cloudinary",
+        "width": 47,
+        "height": 9,
+        "related": ["612e3af1172d35311c8527b1"],
+        "createdAt": "2021-08-31T13:43:49.352Z",
+        "updatedAt": "2021-08-31T14:21:39.052Z",
+        "__v": 0,
+        "id": "612e321568352e34c8a4bd51"
+      },
+      "id": "612e3af1172d35311c8527b1"
+    },
+    "createdAt": "2021-08-31T14:21:34.699Z",
+    "updatedAt": "2021-08-31T14:22:11.827Z",
+    "__v": 2,
+    "id": "612e3aee172d35311c85277e"
+  }
+]
