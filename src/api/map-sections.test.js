@@ -2,6 +2,7 @@ import {
   mapSectionContent,
   mapSections,
   mapSectionTwoColumns,
+  mapTextGrid,
 } from './map-sections';
 describe('map sections', () => {
   it('should map predefined value if no data', () => {
@@ -105,5 +106,69 @@ describe('map sections', () => {
     );
     expect(section.background).toBe(false);
     expect(section.sectionId).toBe('intro');
+  });
+  it('should map grid text with data', () => {
+    const gridtext = mapTextGrid({
+      __component: 'section.section-grid',
+      _id: '612e3aee172d35311c852781',
+      description: 'Abaixo uma descrição de cada função do profissional de TI',
+      title: 'as 3 vertentes',
+      text_grid: [
+        {
+          _id: '612e3aee172d35311c852787',
+          title: 'Front-end',
+          description:
+            'Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio de código uma interface gráfica, normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).',
+          __v: 0,
+          id: '612e3aee172d35311c852787',
+        },
+        {
+          _id: '612e3aee172d35311c852788',
+          title: 'Back-end',
+          description:
+            'O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que vem do navegador rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final não tenha acesso e possa manipular algo.',
+          __v: 0,
+          id: '612e3aee172d35311c852788',
+        },
+        {
+          _id: '612e3aee172d35311c852789',
+          title: 'Mobile',
+          description:
+            'Pertencente à área da TI, o desenvolvimento mobile é o segmento responsável pelo planejamento, elaboração, testes e implementação de softwares para os dispositivos móveis. O que pode incluir o contato ou não com back-end e front-end ao mesmo tempo.',
+          __v: 0,
+          id: '612e3aee172d35311c852789',
+        },
+      ],
+      image_grid: [],
+      metadata: {
+        background: true,
+        _id: '612e3aef172d35311c85279f',
+        name: 'top3',
+        section_id: 'toptres',
+        __v: 0,
+        id: '612e3aef172d35311c85279f',
+      },
+      __v: 2,
+      id: '612e3aee172d35311c852781',
+    });
+    expect(gridtext.component).toBe('section.section-grid');
+    expect(gridtext.title).toBe('as 3 vertentes');
+    expect(gridtext.background).toBe(true);
+    expect(gridtext.sectionId).toBe('toptres');
+    expect(gridtext.description).toBe(
+      'Abaixo uma descrição de cada função do profissional de TI',
+    );
+    expect(gridtext.grid[0].title).toBe('Front-end');
+    expect(gridtext.grid[0].description).toBe(
+      'Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio de código uma interface gráfica, normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).',
+    );
+  });
+  it('should map grid text with no data', () => {
+    const data = mapTextGrid(undefined);
+    expect(data.background).toBe(false);
+    expect(data.component).toBe('');
+    expect(data.sectionId).toBe('');
+    expect(data.title).toBe('');
+    expect(data.description).toBe('');
   });
 });
