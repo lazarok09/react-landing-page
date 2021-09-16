@@ -3,6 +3,7 @@ import { Base } from '../Base';
 import mockBase from '../Base/mock';
 import { mapData } from './../../api/map-data';
 import { PageNotFounded } from './../../components/PageNotFounded/index';
+import { Loading } from './../Loading/index';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -12,19 +13,25 @@ function Home() {
         const data = await fetch(url);
         const response = await data.json();
         const pageData = mapData(response);
-        setData(pageData[0]);
+
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            setData(pageData[0]);
+            resolve();
+          }, 1500);
+        });
       } catch (e) {
         setData(undefined);
       }
     };
-    load('http://localhst:1337/pages/?slug=landing-page');
+    load('http://localhost:1337/pages/?slug=landing-page');
   }, []);
 
   if (data === undefined) {
     return <PageNotFounded />;
   }
   if (data && !data.slug) {
-    return <h1>Carregando</h1>;
+    return <Loading />;
   }
   return <Base {...mockBase} />;
 }

@@ -6,6 +6,7 @@ import { GridText } from '../../components/GridText';
 export const mockBase = {
   children: (
     <>
+      <GridText {...mockGrid} background />
       <GridText {...mockGrid} />
       <GridText {...mockGrid} background />
       <GridText {...mockGrid} />
