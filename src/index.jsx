@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { GlobalStyles } from './styles/global-styles';
 import { ThemeProvider } from 'styled-components';
 import theme from './styles/theme';
-import Home from './templates/Home';
+import Home from './templates/Home/Home';
 
 ReactDOM.render(
   <React.StrictMode>
