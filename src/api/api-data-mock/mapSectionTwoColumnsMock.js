@@ -6,35 +6,19 @@ export default {
   title: 'Desenvolver Software é a nova onda do imperador',
   metadata: {
     background: true,
-    _id: '612e3aee172d35311c852785',
     section_id: 'home',
     name: 'Home',
-    __v: 0,
-    id: '612e3aee172d35311c852785',
   },
-  __v: 1,
   image: {
-    _id: '612e3510172d35311c852776',
     name: 'javascript.svg',
     alternativeText:
       'Desenho de pessoas segurando logo do CSS, JavaScript e HTML',
     caption: 'Desenho de pessoas segurando logo do CSS, JavaScript e HTML',
-    hash: 'javascript_efaaf593b4',
-    ext: '.svg',
-    mime: 'image/svg+xml',
-    size: 30.31,
+
     url: 'https://res.cloudinary.com/lazarok09/image/upload/v1630418192/javascript_efaaf593b4.svg',
     provider_metadata: {
       public_id: 'javascript_efaaf593b4',
       resource_type: 'image',
     },
-    provider: 'cloudinary',
-    width: 1030,
-    height: 730,
-    related: ['612e3aee172d35311c85277f'],
-    createdAt: '2021-08-31T13:56:32.992Z',
-    updatedAt: '2021-08-31T14:21:36.186Z',
-    __v: 0,
-    id: '612e3510172d35311c852776',
   },
 };
