@@ -2,11 +2,8 @@
 Finalizado ㊗️
 </h1>
 
-<h2 align=center>
-take a coffe ☕
-
-</h2>
-
-<h1 align=center>
+<h3 align=center>
+  
 [veja como ficou](https://react-landing-page-bylazo.netlify.app/)
-</h1>
+  
+</h3>
