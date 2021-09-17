@@ -3,7 +3,7 @@ import { Base } from '../Base';
 import { mapData } from './../../api/map-data';
 import { Loading } from './../Loading/index';
 import { PageNotFounded } from './../../components/PageNotFounded/index';
-import { GridTwoColumn } from './../../components/GridTwoColumn/index';
+import { GridTwoColumns } from './../../components/GridTwoColumn/index';
 import { GridContent } from './../../components/GridContent/index';
 import { GridText } from './../../components/GridText/index';
 import { GridImage } from './../../components/GridImage/index';
@@ -34,7 +34,7 @@ function Home() {
       }
     };
     load();
-  }, []);
+  }, [location]);
 
   if (data === undefined) {
     return <PageNotFounded />;
@@ -56,7 +56,7 @@ function Home() {
         // home e por ultimo o networking
         if (component === 'section.section-two-columns') {
           const key = `${slug}-${index}`;
-          return <GridTwoColumn key={key} {...sections} />;
+          return <GridTwoColumns key={key} {...sections} />;
         }
         // top 3 areas e salário logo depois de as 3 vertentes
         if (component === 'section.section-content') {

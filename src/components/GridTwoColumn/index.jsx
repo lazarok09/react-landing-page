@@ -4,7 +4,7 @@ import { SectionBackground } from './../SectionBackground/index';
 import { Heading } from './../Heading/index';
 import { TextComponent } from './../TextComponent/index';
 
-export const GridTwoColumn = ({
+export const GridTwoColumns = ({
   title,
   text,
   srcImage,
@@ -28,7 +28,7 @@ export const GridTwoColumn = ({
   );
 };
 
-GridTwoColumn.propTypes = {
+GridTwoColumns.propTypes = {
   title: P.string.isRequired,
   text: P.string.isRequired,
   srcImage: P.string.isRequired,
