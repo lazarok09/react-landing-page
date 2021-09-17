@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Base } from '../Base';
 import { mapData } from './../../api/map-data';
-import { PageNotFounded } from './../../components/PageNotFounded/index';
 import { Loading } from './../Loading/index';
+import { PageNotFounded } from './../../components/PageNotFounded/index';
 import { GridTwoColumn } from './../../components/GridTwoColumn/index';
 import { GridContent } from './../../components/GridContent/index';
 import { GridText } from './../../components/GridText/index';
