@@ -1,4 +1,4 @@
 export default {
-  url: 'http://localhost:1337/pages/?slug=',
+  url: 'https://strapi-landing-pages-bylazo.herokuapp.com/pages/?slug=',
   defaultSlug: 'landing-page',
 };
