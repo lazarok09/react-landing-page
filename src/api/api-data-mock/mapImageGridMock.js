@@ -8,7 +8,6 @@ export default {
   image_grid: [
     {
       image: {
-        _id: '612e38b5172d35311c852777',
         name: 'https://source.unsplash.com/random/360x360?r=5',
         alternativeText:
           'uma cadeira no meio de um fundo branco e piso de madeira',
@@ -18,7 +17,6 @@ export default {
     },
     {
       image: {
-        _id: '612e38b6172d35311c85277c',
         name: 'https://source.unsplash.com/random/360x360?r=3',
         alternativeText:
           'uma moldura com um vidro, no vidro há respingos de água',
@@ -36,21 +34,16 @@ export default {
       id: '612e3aef172d35311c85278e',
     },
     {
-      _id: '612e3aef172d35311c85278f',
-      __v: 0,
       image: {
         name: 'https://source.unsplash.com/random/360x360?r=6',
         alternativeText: 'uma foto de uma ave que se parece com um abutre.',
-
         url: 'https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_6_d79cc54b1e.jpg',
       },
     },
     {
       image: {
-        _id: '612e38b6172d35311c85277a',
         name: 'https://source.unsplash.com/random/360x360?r=4',
         alternativeText: 'uma câmera fotográfica em fundo preto',
-
         url: 'https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_4_7c4591b222.jpg',
       },
     },
@@ -60,7 +53,6 @@ export default {
         name: 'https://source.unsplash.com/random/360x360?r=1',
         alternativeText:
           'duas pessoas segurando a letra R e Y ao fundo de um céu estrelado',
-
         url: 'https://res.cloudinary.com/lazarok09/image/upload/v1630419125/360x360_r_1_5ea2e7c649.jpg',
       },
     },
