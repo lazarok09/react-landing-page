@@ -51,6 +51,7 @@ exports[`<PageNotFounded /> should render PageNotFounded correctly 1`] = `
 <div>
   <div
     class="c0"
+    id="id-8440-952173863656"
   >
     <div
       class="c1"

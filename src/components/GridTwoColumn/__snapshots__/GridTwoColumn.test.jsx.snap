@@ -72,6 +72,7 @@ exports[`<GridTwoColumn /> should render a grid with two columns 1`] = `
 <div>
   <div
     class="c0"
+    id="id-8850-442127041002"
   >
     <div
       class="c1"
