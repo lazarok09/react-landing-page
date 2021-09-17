@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Base } from '../Base';
-import mockBase from '../Base/mock';
 import { mapData } from './../../api/map-data';
 import { PageNotFounded } from './../../components/PageNotFounded/index';
 import { Loading } from './../Loading/index';
+import { GridTwoColumn } from './../../components/GridTwoColumn/index';
+import { GridContent } from './../../components/GridContent/index';
+import { GridText } from './../../components/GridText/index';
+import { GridImage } from './../../components/GridImage/index';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -15,10 +18,8 @@ function Home() {
         const pageData = mapData(response);
 
         await new Promise((resolve) => {
-          setTimeout(() => {
-            setData(pageData[0]);
-            resolve();
-          }, 1500);
+          setData(pageData[0]);
+          resolve();
         });
       } catch (e) {
         setData(undefined);
@@ -33,7 +34,40 @@ function Home() {
   if (data && !data.slug) {
     return <Loading />;
   }
-  return <Base {...mockBase} />;
+  const { footerHtml, menu, sections, slug } = data;
+  const { link, links, srcImage, text } = menu;
+
+  return (
+    <Base
+      links={links}
+      footerHTML={footerHtml}
+      logoData={{ text, link, srcImage }}
+    >
+      {sections.map((sections, index) => {
+        const { component } = sections;
+        // home e por ultimo o networking
+        if (component === 'section.section-two-columns') {
+          const key = `${slug}-${index}`;
+          return <GridTwoColumn key={key} {...sections} />;
+        }
+        // top 3 areas e salário logo depois de as 3 vertentes
+        if (component === 'section.section-content') {
+          const key = `${slug}-${index}`;
+          return <GridContent key={key} {...sections} />;
+        }
+        // galeria
+        if (component === 'section.section-grid-image') {
+          const key = `${slug}-${index}`;
+          return <GridImage key={key} {...sections} />;
+        }
+        //as 3 vertentes
+        if (component === 'section.section-grid-text') {
+          const key = `${slug}-${index}`;
+          return <GridText key={key} {...sections} />;
+        }
+      })}
+    </Base>
+  );
 }
 
 export default Home;
