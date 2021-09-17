@@ -8,6 +8,7 @@ import { GridContent } from './../../components/GridContent/index';
 import { GridText } from './../../components/GridText/index';
 import { GridImage } from './../../components/GridImage/index';
 import { useLocation } from 'react-router';
+import config from '../../config';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -16,12 +17,12 @@ function Home() {
   useEffect(() => {
     const pathname = location.pathname.replace(/[^a-z0-9-_]/gi, '');
     // considera a landing page como página inicial
-    const slug = pathname ? pathname : 'landing-page';
+    const slug = pathname ? pathname : config.defaultSlug;
     console.log(slug);
 
     const load = async () => {
       try {
-        const data = await fetch('http://localhost:1337/pages/?slug=' + slug);
+        const data = await fetch(config.url + slug);
         const response = await data.json();
         const pageData = mapData(response);
 
@@ -35,6 +36,18 @@ function Home() {
     };
     load();
   }, [location]);
+
+  useEffect(() => {
+    if (data === undefined) {
+      return (document.title = 'Página não encontrada');
+    }
+    if (data && !data.slug) {
+      return (document.title = 'Carregando....');
+    }
+    if (data && data.title) {
+      return (document.title = data.title);
+    }
+  }, [data]);
 
   if (data === undefined) {
     return <PageNotFounded />;
