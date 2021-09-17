@@ -7,13 +7,21 @@ import { GridTwoColumn } from './../../components/GridTwoColumn/index';
 import { GridContent } from './../../components/GridContent/index';
 import { GridText } from './../../components/GridText/index';
 import { GridImage } from './../../components/GridImage/index';
+import { useLocation } from 'react-router';
 
 function Home() {
   const [data, setData] = useState([]);
+  const location = useLocation();
+
   useEffect(() => {
-    const load = async (url) => {
+    const pathname = location.pathname.replace(/[^a-z0-9-_]/gi, '');
+    // considera a landing page como página inicial
+    const slug = pathname ? pathname : 'landing-page';
+    console.log(slug);
+
+    const load = async () => {
       try {
-        const data = await fetch(url);
+        const data = await fetch('http://localhost:1337/pages/?slug=' + slug);
         const response = await data.json();
         const pageData = mapData(response);
 
@@ -25,7 +33,7 @@ function Home() {
         setData(undefined);
       }
     };
-    load('http://localhost:1337/pages/?slug=landing-page');
+    load();
   }, []);
 
   if (data === undefined) {
