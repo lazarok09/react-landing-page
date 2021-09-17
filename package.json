@@ -75,5 +75,9 @@
       "!<rootDir>/**/stories.{js,jsx,ts,tsx}",
       "!<rootDir>/node_modules/"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/lazarok09/react-landing-page.git",
+  "author": "lazarok09 <lazarok09@gmail.com>",
+  "license": "MIT"
 }
