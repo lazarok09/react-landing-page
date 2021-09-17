@@ -31,4 +31,18 @@ export const GlobalStyles = createGlobalStyle`
   a {
     color: ${({ theme }) => theme.colors.secondaryColor};
   }
+  .table {
+    width: 100%;
+    overflow-y: auto;
+  }
+  .table table td, .table table th {
+    padding: 1rem;
+    border: 0.1rem dashed ${({ theme }) => theme.colors.lightGrayColor};
+  }
+
+  @media ${({ theme }) => theme.media.lteMedium} {
+    .table table td, .table table th {
+      white-space: nowrap;
+    }
+  }
 `;

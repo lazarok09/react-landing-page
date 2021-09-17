@@ -49,12 +49,19 @@ exports[`<GridImage /> should render with background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
   text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width:768px) {
@@ -196,12 +203,19 @@ exports[`<GridImage /> should render without background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
   text-transform: uppercase;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width:768px) {
